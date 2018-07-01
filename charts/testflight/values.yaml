@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 100.67.21.191:5000/twjenkins/testflight
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: testflight
